@@ -93,7 +93,7 @@ class BaseController extends Controller
      
         return view('excel'); 
     } 
-    public function get_data(Request $request)
+    public function get_data(Request $request) 
     {  
     //  print_R($request->file('file')->getRealPath());
     //  exit;
